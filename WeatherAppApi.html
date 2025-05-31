@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WeatherAppApi</title>
+    <link rel="stylesheet" href="./WeatherAppApi.css">
 </head>
 <body>
     <div id="WeatherAppApi">
-        <input type="text" id="city" placeholder="Enter the City Name">
-        <p id="result"></p>
+        <h1>Check Weather of your City!</h1>
+        <input type="text" id="city" placeholder="Enter the City Name"><br>
+        <button type="submit" onclick="checkWeather()">Check</button>
+       
     </div>
+     <div id="result">
+        <h1>Weather Status</h1>
+     </div>
 </body>
 <script src="./WeatherAppApi.js"></script>
 </html>
